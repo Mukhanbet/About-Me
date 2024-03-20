@@ -1,0 +1,32 @@
+body {
+    margin: 0 auto;
+    background-color: #006166;
+    border-radius: 25px;
+}
+
+header {
+    background-color: #00494d;
+    padding: 1em 0;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    color: white;
+    margin: 0 1rem;
+}
+
+header ul li a {
+    color: var(--background-color);
+    text-decoration: none;
+}
+
+li:hover {
+    color: #FDFEFE ;
+    transform: scale(1.3);
+}
