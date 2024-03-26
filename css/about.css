@@ -25,7 +25,8 @@
     display: flex;
     margin-right: 100px;
     margin-left: 300px;
-    margin-top: 70px
+    margin-top: 70px;
+    padding: 100px;
 }
 
 #ul {
@@ -38,6 +39,7 @@ dt {
     font-size: 30px;
     font-style: bold;
     color: rgb(0, 0, 0);
+    margin-top: 50px;
 }
 
 dd {
@@ -90,7 +92,7 @@ header ul li a {
 }
 li:hover {
     color: white ;
-    transform: scale(1.2);
+    transform: scale(1.15);
     text-shadow: 5px 5px 10px rgb(255, 255, 255);
 }
 

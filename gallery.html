@@ -3,47 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <title>Portfolio Gallery</title>
     <style>
         body {
-            background-image: url(img/photo.jpg);
+            background-image: url(img/gallery-back-3.jpg);
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
         }
     </style>
 </head>
-<body>             
+<body>
     <header>
-        <div>
+        <div class="header-content">
             <p id="portfolio">© Portfolio</p>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="works.html">Works</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            <nav>
+                <ul>
+                    <li id="li"><a href="index.html">Home</a></li>
+                    <li id="li"><a href="about.html">About Me</a></li>
+                    <li id="li"><a href="resume.html">Resume</a></li>
+                    <li id="li"><a href="works.html">Works</a></li>
+                    <li id="li"><a href="gallery.html">Gallery</a></li>
+                    <li id="li"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <div id="main-screen">
-        <div id="short-info">
-            <h1>Hi There, I'm Nurmukhanbet</h1>
-            <p>I'm a student at Ala-Too University</p>
-            <span>
-            <a href="https://github.com/Mukhanbet" target="_blank"><img id="logo" src="img/github.png" alt=""></a>
-            <a href="https://www.instagram.com/_az1mbaev_04_?igsh=M3FhZXRucW5tcWlt&utm_source=qr" target="_blank"><img id="logo" src="img/instagram.png" alt=""></a>
-            <a href="https://api.whatsapp.com/send?phone=996551040442" target="_blank"><img id="logo2" src="img/whatsapp.png" alt=""></a>
-            <a href="https://t.me/Mukhanbet04" target="_blank"><img id="logo2" src="img/telegram.png" alt=""></a>
-            </span>
-        </div>
-        <img src="img/main-photo.png" alt="">
-    </div>
-    
+    <main>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="img/birthday.jpg" alt="My birthday with my group">
+                <div class="description">
+                    <p>My birthday celebration with friends. A day to remember!</p>
+                </div>
+            </div>
 
+            <div class="gallery-item reversed">
+                <img src="img/at-school.jpg" alt="Last time at school">
+                <div class="description">
+                    <p>The last day at school, marking the end of an era and the beginning of a new journey.</p>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="img/interesting.jpg" alt="First time in Gallery">
+                <div class="description">
+                    <p>First time I went to Gallery with my friends</p>
+                </div>
+            </div>
+
+            <div class="gallery-item reversed">
+                <video controls src="img/focus.mp4" title="It's me when I show the focus"></video>
+                <div class="description">
+                    <p>In 11th degree we went to Sary-Chelek and there I show a little focus with cards.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    
     <footer>
         <p>Copyright © Your Name. All rights reserved.</p>
     </footer>

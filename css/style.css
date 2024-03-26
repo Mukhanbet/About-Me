@@ -37,7 +37,7 @@ header ul li a {
 
 li:hover {
     color: white ;
-    transform: scale(1.2);
+    transform: scale(1.15);
     text-shadow: 5px 5px 10px rgb(255, 255, 255);
 }
 

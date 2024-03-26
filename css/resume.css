@@ -1,0 +1,66 @@
+body {
+    margin: 0 auto;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+
+header {
+    /* background-color: rgba(0, 139, 139, 0.697); */
+    background-color: #002738e7;
+    padding: 1em 0;
+}
+
+header p {
+    justify-content: center;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    margin-right: 70px;
+}
+
+header ul li {
+    font-size: 20px;
+    margin: 0 1rem;
+    color: white;
+}
+
+header ul li a {
+    color: var(--background-color);
+    text-decoration: none;
+}
+li:hover {
+    color: white ;
+    transform: scale(1.15);
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px 0px 150px
+}
+
+#portfolio {
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
