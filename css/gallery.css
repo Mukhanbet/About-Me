@@ -8,6 +8,7 @@ html {
 }
 
 body {
+    font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -53,7 +54,7 @@ header ul {
 header ul li {
     font-size: 20px;
     margin: 0 1rem;
-    color: white;
+    /* color: white; */
 }
 
 header ul li a {
@@ -80,7 +81,7 @@ div {
 #portfolio {
     font-style: italic;
     font-size: 20px;
-    color: white;
+    /* color: white; */
 }
 
 .gallery {
@@ -143,4 +144,5 @@ p {
 
 #footer-text {
     font-size: medium;
+    color: black;
 }
