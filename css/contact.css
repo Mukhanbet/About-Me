@@ -18,6 +18,8 @@ header {
     /* background-color: rgba(0, 139, 139, 0.697); */
     background-color: #002738e7;
     padding: 1em 0;
+    border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
 }
 
 header p {
@@ -97,6 +99,8 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
 }
 
 @media (max-width: 768px) {

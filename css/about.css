@@ -30,7 +30,9 @@
     margin-right: 100px;
     margin-left: 300px;
     margin-top: 70px;
+    margin-bottom: 40px;
     padding: 100px;
+    border-radius: 40px;
 }
 
 #ul {
@@ -78,6 +80,8 @@ header {
     /* background-color: rgba(0, 139, 139, 0.697); */
     background-color: #00273884;
     padding: 1em 0;
+    border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
 }
 
 header p {
@@ -104,7 +108,7 @@ header ul li a {
 li:hover {
     color: white ;
     transform: scale(1.15);
-    text-shadow: 5px 5px 10px rgb(255, 255, 255);
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
 
 h1 {
@@ -129,6 +133,8 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
 }
 
 

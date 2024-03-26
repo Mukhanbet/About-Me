@@ -24,6 +24,8 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
 }
 
 
@@ -32,6 +34,8 @@ header {
     /* background-color: rgba(0, 139, 139, 0.697); */
     background-color: #0027389e;
     padding: 1em 0;
+    border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
 }
 
 header p {
@@ -84,6 +88,7 @@ div {
     flex-direction: column;
     align-items: center;
     margin: 20px 0;
+    margin-top: 50px;
 }
 
 .gallery-item {

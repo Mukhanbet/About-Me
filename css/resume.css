@@ -19,6 +19,21 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+}
+
+#resume {
+    justify-content: center;
+    /* background-color: #00273895; */
+    padding: 100px;
+    margin: auto;
+    /* border-radius: 40px; */
+}
+
+div img {
+    width: 750px;
+    box-shadow: 0px 0px 50px 10px  black;
 }
 
 
@@ -27,6 +42,8 @@ header {
     /* background-color: rgba(0, 139, 139, 0.697); */
     background-color: #002738e7;
     padding: 1em 0;
+    border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
 }
 
 header p {
