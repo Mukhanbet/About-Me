@@ -1,11 +1,26 @@
-body {
-    margin: 0 auto;
-    background-color: #006166;
+html {
+    height: 100%;
 }
 
-html, body {
-    min-height: 100%;
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
+
+main {
+    flex: 1;
+}
+
+footer {
+    width: 100%;
+    background-color: #00273869;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
 
 
 header {
@@ -28,6 +43,7 @@ header ul {
 header ul li {
     font-size: 20px;
     margin: 0 1rem;
+    color: white;
 }
 
 header ul li a {
@@ -38,7 +54,7 @@ header ul li a {
 li:hover {
     color: white ;
     transform: scale(1.15);
-    text-shadow: 5px 5px 10px rgb(255, 255, 255);
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
 }
 
 h1 {
@@ -55,6 +71,7 @@ div {
 #portfolio {
     font-style: italic;
     font-size: 20px;
+    color: white;
 }
 
 img {
@@ -96,4 +113,8 @@ p {
 span {
     display: inline-flex;
     justify-content: center;
+}
+
+#footer-text {
+    font-size: medium;
 }

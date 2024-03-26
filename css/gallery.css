@@ -1,10 +1,31 @@
-body {
-    margin: 0 auto;
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
 }
 
-html, body {
-    min-height: 100%;
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
+
+main {
+    flex: 1;
+}
+
+footer {
+    width: 100%;
+    background-color: #0027389e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
 
 
 header {
@@ -92,6 +113,9 @@ div {
 }
 
 
+p {
+    font-size: 20px;
+}
 
 .gallery-item.reversed {
     flex-direction: row-reverse;
@@ -110,4 +134,8 @@ div {
     .gallery-item .description {
         margin-top: 20px;
     }
+}
+
+#footer-text {
+    font-size: medium;
 }

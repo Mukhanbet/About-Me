@@ -7,6 +7,10 @@
     background-color: #00273847;
 }
 
+#about-me:hover {
+    transform: scale(1.05);
+}
+
 #about-me-text {
     display: flex;
     justify-content: left;
@@ -54,12 +58,19 @@ dd {
 
 
 
-body {
-    margin: 0 auto;
+html {
+    height: 100%;
 }
 
-html, body {
-    min-height: 100%;
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
 }
 
 
@@ -112,5 +123,12 @@ div {
     font-size: 20px;
 }
 
+footer {
+    background-color: #00273884;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
 
 
